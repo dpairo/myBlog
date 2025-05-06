@@ -1,26 +1,41 @@
 # ---------------------------------
+#   Tema
+# ---------------------------------
+remote_theme: cotes2020/jekyll-theme-chirpy
+
+# ---------------------------------
+#   Plugins
+# ---------------------------------
+plugins:
+  - jekyll-remote-theme
+  - github-pages          # incluye el meta-gem de GitHub Pages
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-archives
+  - jekyll-tagging       # corregido con guión
+  - jekyll-include-cache
+
+# ---------------------------------
 #   Datos básicos
 # ---------------------------------
 title: Daniel Fulla Pairo
-tagline: Leetcode & projects blog
+tagline: LeetCode Blog & Projects    # traducido al inglés
 description: >
   This is where I will be uploading my LeetCode solutions with explanations.
   I will also be sharing some personal & team projects for feedback.
 email: daniel_fulla@icloud.com
 
-url: ""          # p. ej. https://dpairo.github.io cuando publiques
+url: ""          # p. ej. https://dpairo.github.io cuando publiques
 baseurl: ""      # déjalo vacío si publicas en la raíz
 
-lang: es-ES
+lang: en-US      # cambia a en-US si todo el contenido va en inglés
 timezone: Europe/Madrid
 
 github_username: dpairo
 instagram_username: daniifulla
-
-# ---------------------------------
-#   Tema
-# ---------------------------------
-theme: jekyll-theme-chirpy       # ahora es una gem, no un remote‑theme
 
 # ---------------------------------
 #   Foto de perfil
@@ -30,24 +45,11 @@ avatar: /assets/Img/profilePick.jpg
 # ---------------------------------
 #   Paginación
 # ---------------------------------
-paginate: 10                     # nº de posts por página de inicio
+paginate: 10
 paginate_path: "/page:num/"
 
 # ---------------------------------
-#   Plugins adicionales
+#   Eliminar “Actualizado recientemente”
 # ---------------------------------
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-redirect-from
-  - jekyll-archives
-  - jekyll/tagging        # ← con slash
-  - jekyll-include-cache
-
-# ---------------------------------
-#   cargarse el recientemente
-# ---------------------------------
-recent_post:
+recent_posts:
   enable: false
