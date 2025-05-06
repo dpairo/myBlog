@@ -13,8 +13,8 @@ group :jekyll_plugins do
   gem "jekyll-paginate"
   gem "jekyll-redirect-from"
   gem "jekyll-archives"
-  gem "jekyll-tagging"
   gem "jekyll-include-cache"
+  gem "jekyll-tagging"
 end
 
 # Otras (logger, csv, etc.) si las necesitas:
