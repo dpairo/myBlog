@@ -1,11 +1,5 @@
 source "https://rubygems.org"
 
-# Motor
-gem "jekyll", "~> 4.3.4"
-
-# Tema Chirpy como gem
-gem "jekyll-theme-chirpy", "~> 7.2"
-
 # Plugins oficiales
 group :jekyll_plugins do
   gem "base64"
@@ -17,6 +11,8 @@ group :jekyll_plugins do
   gem "jekyll-archives"
   gem "jekyll-tagging"        # ← aquí
   gem "jekyll-include-cache"
+  gem "github-pages", group: :jekyll_plugins
+  gem "jekyll-remote-theme"
 end
 
 # Dependencias estándar que Ruby 3.4 ya no trae
