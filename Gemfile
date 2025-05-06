@@ -14,7 +14,6 @@ group :jekyll_plugins do
   gem "jekyll-redirect-from"
   gem "jekyll-archives"
   gem "jekyll-include-cache"
-  gem "jekyll-tagging"
 end
 
 # Otras (logger, csv, etc.) si las necesitas:
