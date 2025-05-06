@@ -1,7 +1,7 @@
 # ---------------------------------
 #   Tema
 # ---------------------------------
-remote_theme: cotes2020/jekyll-theme-chirpy
+remote_theme: "cotes2020/jekyll-theme-chirpy@v7.2.4"
 
 # ---------------------------------
 #   Plugins
