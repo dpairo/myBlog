@@ -8,14 +8,13 @@ remote_theme: cotes2020/jekyll-theme-chirpy
 # ---------------------------------
 plugins:
   - jekyll-remote-theme
-  - github-pages          # incluye el meta-gem de GitHub Pages
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-redirect-from
   - jekyll-archives
-  - jekyll-tagging       # corregido con guión
+  - jekyll-tagging
   - jekyll-include-cache
 
 # ---------------------------------
